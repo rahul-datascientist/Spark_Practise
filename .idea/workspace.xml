@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c80cdca3-6831-4d94-9a7d-dc07cf83bb3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interview_Questions.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repartition vs coalesce.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Questions.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Questions.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Definative_Guide/Chapter5/DataFrame-Transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Definative_Guide/Chapter5/DataFrame-Transformation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repartition vs coalesce.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/repartition vs coalesce.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,26 +24,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="csv" value="1" />
           <entry key="json" value="2" />
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="Python" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="759" />
+          <entry key="py" value="1201" />
           <entry key="txt" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="759" />
+          <entry key="Python" value="1201" />
         </counts>
       </usages-collector>
     </session>
@@ -59,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Definative_Guide/Chapter5/DataFrame-Transformation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+            <state relative-caret-position="276">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -71,14 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/repartition vs coalesce.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/flight-data/csv/2015-summary.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="43" selection-start-column="38" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="138" column="38" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -100,8 +108,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/basic.py" />
         <option value="$PROJECT_DIR$/src/First_pyspark_program.py" />
-        <option value="$PROJECT_DIR$/src/Definative_Guide/Chapter5/DataFrame-Transformation.py" />
         <option value="$PROJECT_DIR$/src/repartition vs coalesce.py" />
+        <option value="$PROJECT_DIR$/src/Definative_Guide/Chapter5/DataFrame-Transformation.py" />
       </list>
     </option>
   </component>
@@ -135,7 +143,28 @@
               <item name="Pyspark" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spark" type="47feb1d3:ProjectViewModuleNode" />
               <item name="Spark_Practise" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pyspark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spark" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Spark_Practise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pyspark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spark" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Spark_Practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Definative_Guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pyspark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spark" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="Spark_Practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Definative_Guide" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,7 +175,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624788922377" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624799543173" />
     <property name="last_opened_file_path" value="D:/Hadoop/Spark/python/lib/py4j-0.10.7-src.zip!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -169,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.repartition vs coalesce">
+  <component name="RunManager" selected="Python.DataFrame-Transformation">
     <configuration name="DataFrame-Transformation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Spark" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,8 +291,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.repartition vs coalesce" />
         <item itemvalue="Python.DataFrame-Transformation" />
+        <item itemvalue="Python.repartition vs coalesce" />
         <item itemvalue="Python.First_pyspark_program" />
         <item itemvalue="Python.basic" />
       </list>
@@ -294,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624782332056</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chapter 5">
+      <created>1624788933980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624788933980</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -365,30 +401,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Chapter 5" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="138" column="38" lean-forward="true" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
-          <folding>
-            <element signature="e#919#956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/flight-data/json/2010-summary.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Definative_Guide/Chapter5/DataFrame-Transformation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -408,10 +424,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/repartition vs coalesce.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="327">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="138" column="38" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/flight-data/csv/2015-summary.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="38" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Definative_Guide/Chapter5/DataFrame-Transformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -18,3 +18,4 @@ print(df2.rdd.getNumPartitions())
 #  is fewer using coalesce.
 df3 = df.coalesce(2)
 print(df3.rdd.getNumPartitions())
+

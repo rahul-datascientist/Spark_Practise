@@ -1,5 +1,8 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType,StructField,StringType,LongType, IntegerType
+from pyspark.sql.functions import  Column,expr
+
+import pyspark.sql.functions as psf
 
 
 spark = SparkSession \
@@ -30,5 +33,23 @@ df = spark.read.format("json").schema(myManualSchema)\
 df.printSchema()
 
 print(df.schema.simpleString())
+
+#show all coluns and datatype
+print(df.columns)
+
+print(df.dtypes)
+
+df.createOrReplaceTempView("dfTable")
+
+##Data operations
+
+#select and selectExpr
+df.select("ORIGIN_COUNTRY_NAME","DEST_COUNTRY_NAME").show(2,False)
+
+spark.sql("select ORIGIN_COUNTRY_NAME,DEST_COUNTRY_NAME from dfTable limit 2");
+
+df.select("ORIGIN_COUNTRY_NAME","DEST_COUNTRY_NAME").show(2,False)
+
+spark.sql("select ORIGIN_COUNTRY_NAME,DEST_COUNTRY_NAME from dfTable limit 2");
 
 spark.stop()
